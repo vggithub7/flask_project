@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1> Login Page  </h1>
+    <form action ="" method="POST">
+        <h2>Username</h2><br>
+        <input type="text" name="username">
+        <h2>Password</h2>
+        <input type="password" name="password"><br>
+        <input type="submit" name="login" Value="Login">
+
+    </form>
+    <div> {%if msg%}
+    {{msg}}
+    {%endif%}
+    </div>
+</body>
+</html>
